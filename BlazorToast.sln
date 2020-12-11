@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorToastWasm", "BlazorToastWasm\BlazorToastWasm.csproj", "{DB1CB3EE-7895-4E5E-A10B-28EE6C73575E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorToastWasm", "BlazorToastWasm\BlazorToastWasm.csproj", "{DB1CB3EE-7895-4E5E-A10B-28EE6C73575E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorToastServerSide", "BlazorToastServerSide\BlazorToastServerSide.csproj", "{EF723085-E07E-4B8E-9D9A-1EA3FE011754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorToastServerSide", "BlazorToastServerSide\BlazorToastServerSide.csproj", "{EF723085-E07E-4B8E-9D9A-1EA3FE011754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrakTech.BlazorToast", "OrakTech.BlazorToast\OrakTech.BlazorToast.csproj", "{F116C2A7-D07D-425C-8663-73904E85766F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrakTech.BlazorToast", "OrakTech.BlazorToast\OrakTech.BlazorToast.csproj", "{F116C2A7-D07D-425C-8663-73904E85766F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C63C1A19-F13C-4810-A7B2-43ACCCFC100A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

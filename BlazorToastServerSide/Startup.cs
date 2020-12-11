@@ -12,6 +12,7 @@ namespace BlazorToastServerSide
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using OrakTech.BlazorToast;
 
     public class Startup
     {
@@ -26,6 +27,7 @@ namespace BlazorToastServerSide
             services.AddRazorPages(configure => configure.RootDirectory = "/Views/Pages");
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddToastServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

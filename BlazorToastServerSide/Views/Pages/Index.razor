@@ -1,3 +1,24 @@
 ﻿@page "/"
 
 <h1>Hello, world!</h1>
+<br />
+
+<button @onclick="Launch">Pop</button>
+
+@code {
+
+    [Inject]
+    public IToastService toaster { get; set; }
+
+    void Launch()
+    {
+        toaster.AddToast(toast);
+    }
+
+    ToastModel toast => new ToastModel
+    {
+        Title = "Demonstration",
+        Content = "Hello",
+        IconColor = "red"
+    };
+}

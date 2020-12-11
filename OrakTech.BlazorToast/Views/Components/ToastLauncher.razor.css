@@ -1,0 +1,11 @@
+﻿.toast-container {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    /* min-height: 200px; */
+    min-width: 400px; 
+    z-index: 1;
+    padding: 20px;
+    overflow : hidden;
+    max-height: calc(100vh - 50px);
+}
