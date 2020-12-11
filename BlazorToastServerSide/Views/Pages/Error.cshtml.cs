@@ -1,4 +1,4 @@
-﻿namespace BlazorToastServerSide.Pages
+﻿namespace BlazorToastServerSide.Views.Pages
 {
     using System;
     using System.Collections.Generic;
